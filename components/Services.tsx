@@ -3,6 +3,7 @@ import Image from 'next/image';
 export default function Services() {
   return (
     <div
+      data-aos="fade-up"
       id="services"
       className="bg-[#1C6657] text-white px-[4.444444444vw] flex flex-col gap-16 md:gap-20 pb-14 pt-16 md:pt-24"
     >

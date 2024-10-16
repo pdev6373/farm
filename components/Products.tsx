@@ -24,6 +24,7 @@ const contacts = [
 export default function Products() {
   return (
     <div
+      data-aos="fade-up"
       id="products"
       className="bg-white text-[#1C6657] pb-12 pt-16 px-[4.444444444vw] flex flex-col gap-8 md:gap-12"
     >

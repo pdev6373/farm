@@ -3,6 +3,7 @@ import Image from 'next/image';
 export default function About() {
   return (
     <div
+      data-aos="fade-up"
       id="about-us"
       className="flex items-center justify-between gap-12 lg:gap-5 bg-white text-[#1C6657] px-[4.444444444vw] border-b-[2px] border-b-[#1C6657] py-20 flex-col lg:flex-row"
     >

@@ -23,7 +23,10 @@ const services = [
 export default function Footer() {
   return (
     <footer>
-      <div className="self-end bg-white flex justify-between px-[4.444444444vw] py-10 border-t-[2px] border-t-[#1C6657] gap-6 lg:gap-[5vw] flex-wrap flex-col sm:flex-row">
+      <div
+        data-aos="fade-up"
+        className="self-end bg-white flex justify-between px-[4.444444444vw] py-10 border-t-[2px] border-t-[#1C6657] gap-6 lg:gap-[5vw] flex-wrap flex-col sm:flex-row"
+      >
         <h3 className="text-[#1C6657] text-xl font-semibold">G.O.A Farm</h3>
 
         <div className="flex justify-between gap-6 lg:gap-[5vw] grow flex-wrap flex-col sm:flex-row">
@@ -63,7 +66,10 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 bg-[#1C6657] py-3 px-[4.444444444vw]">
+      <div
+        data-aos="fade-up"
+        className="flex items-center gap-2 bg-[#1C6657] py-3 px-[4.444444444vw]"
+      >
         <Image
           src={'/svgs/copyright.svg'}
           alt="copyright"

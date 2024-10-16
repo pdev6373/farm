@@ -28,6 +28,7 @@ const contacts = [
 export default function Contact() {
   return (
     <div
+      data-aos="fade-up"
       id="contact-us"
       className="bg-white text-[#1C6657] pb-12 pt-16 px-[4.444444444vw] flex flex-col gap-12"
     >
