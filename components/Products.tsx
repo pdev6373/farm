@@ -42,7 +42,10 @@ export default function Products() {
         }}
       >
         {contacts.map((contact) => (
-          <div className="border-[2px] border-[#D17738] rounded-[16px] flex flex-col overflow-hidden">
+          <div
+            className="border-[2px] border-[#D17738] rounded-[16px] flex flex-col overflow-hidden"
+            key={contact.title}
+          >
             <img src={contact.icon} alt="contact" className="w-full" />
 
             <div className="flex flex-col gap-1 sm:gap-1.5 bg-[#1C6657] text-center text-white grow pb-4 pt-3">

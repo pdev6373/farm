@@ -36,7 +36,9 @@ export default function Footer() {
 
                 <div className="flex flex-col gap-3">
                   {service.service.map((service) => (
-                    <p className="text-sm text-[#1C6657]">{service}</p>
+                    <p className="text-sm text-[#1C6657]" key={service}>
+                      {service}
+                    </p>
                   ))}
                 </div>
               </div>

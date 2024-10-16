@@ -46,7 +46,10 @@ export default function Contact() {
         }}
       >
         {contacts.map((contact) => (
-          <div className="border-[2px] border-[#D17738] rounded-[16px] flex flex-col gap-12 lg:gap-14 p-7">
+          <div
+            className="border-[2px] border-[#D17738] rounded-[16px] flex flex-col gap-12 lg:gap-14 p-7"
+            key={contact.title}
+          >
             <div>
               <img
                 src={contact.icon}
