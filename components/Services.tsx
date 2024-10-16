@@ -37,11 +37,11 @@ export default function Services() {
               Fish Farm Consultation
             </h3>
             <p className="text-base sm:text-xl sm:leading-[40px]">
-              Benefit from our industry expertise with tailored consultation
+              {`Benefit from our industry expertise with tailored consultation
               services. Whether you're just starting or looking to improve your
               existing operations, our consultants offer strategic advice,
               operational insights, and best practices to enhance your farm’s
-              efficiency and productivity.
+              efficiency and productivity.`}
             </p>
           </div>
         </div>
