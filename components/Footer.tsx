@@ -67,7 +67,6 @@ export default function Footer() {
       </div>
 
       <div
-        data-aos="fade-up"
         className="flex items-center gap-2 bg-[#1C6657] py-3 px-[4.444444444vw]"
       >
         <Image
