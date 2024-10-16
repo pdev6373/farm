@@ -42,7 +42,7 @@ export default function Header() {
         </div>
       </header>
 
-      <div className="px-[4.444444444vw] mt-auto py-12 sm:py-16 sm:pt-24 text-white relative z-10 flex flex-col gap-2">
+      <div className="px-[4.444444444vw] mt-auto py-12 sm:py-16 sm:pt-24 text-white flex flex-col gap-2">
         <h3 className={`${lily.className} text-4xl md:text-5xl lg:text-6xl`}>
           G.O.A FARM
         </h3>
