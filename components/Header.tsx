@@ -10,7 +10,7 @@ export default function Header() {
       className="relative w-full text-white bg-no-repeat bg-cover bg-center flex flex-col gap-10"
       style={{ backgroundImage: 'url("/pngs/hero.png")' }}
     >
-      <div className="absolute inset-0 z-10 bg-[#00000033] sm:bg-[#00000026]" />
+      <div className="absolute inset-0 z-20 bg-[#00000033] sm:bg-[#00000026]" />
       <header className="flex flex-col md:flex-row items-center justify-between gap-4 px-[4.444444444vw] py-7 relative z-10">
         <Image src={'/svgs/logo.svg'} alt="logo" width={174} height={50} />
 
