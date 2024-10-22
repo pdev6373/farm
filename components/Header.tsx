@@ -7,7 +7,7 @@ const lily = Lily_Script_One({ subsets: ['latin'], weight: ['400'] });
 export default function Header() {
   return (
     <div
-      className="relative w-full text-white bg-no-repeat bg-cover bg-center flex flex-col gap-10"
+      className="relative w-full text-white bg-no-repeat bg-cover bg-center flex flex-col gap-10 overflow-hidden"
       style={{ backgroundImage: 'url("/pngs/hero.png")' }}
     >
       <div className="absolute inset-0 z-20 bg-[#00000033] sm:bg-[#00000026]" />
