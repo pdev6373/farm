@@ -11,7 +11,7 @@ export default function Header() {
       style={{ backgroundImage: 'url("/pngs/hero.png")' }}
     >
       <div className="absolute inset-0 z-20 bg-[#00000033] sm:bg-[#00000026]" />
-      <header className="flex flex-col md:flex-row items-center justify-between gap-4 px-[4.444444444vw] py-7 relative z-10">
+      <header className="flex flex-col md:flex-row items-center justify-between gap-4 px-[4.444444444vw] py-7 relative z-20">
         <Image src={'/svgs/logo.svg'} alt="logo" width={174} height={50} />
 
         <div className="flex items-center gap-5 sm:gap-7 flex-wrap justify-center md:justify-start">
@@ -42,7 +42,7 @@ export default function Header() {
         </div>
       </header>
 
-      <div className="px-[4.444444444vw] mt-auto py-12 sm:py-16 sm:pt-24 text-white flex flex-col gap-2">
+      <div className="px-[4.444444444vw] mt-auto py-12 sm:py-16 sm:pt-24 text-white flex flex-col gap-2 relative z-20">
         <h3 className={`${lily.className} text-4xl md:text-5xl lg:text-6xl`}>
           G.O.A FARM
         </h3>
